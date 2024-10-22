@@ -19,9 +19,9 @@ Change log
 -------------
 #### Version
 ##### v0.0.2 
-- Add function convert and verify Thai numbers to arabic number [2024/10/22]
+- **[2024/10/22]** Add function convert and verify Thai numbers to arabic number 
 ##### v0.0.1 
-- Initial verify telephone and mobile number in Thailand [2024/10/22]
+- **[2024/10/22]** Initial verify telephone and mobile number in Thailand 
 
 Documentation
 -------------
