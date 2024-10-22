@@ -4,11 +4,11 @@ Description
 
 Feature 
 -------------
-Verify
+#### Verify
 - verify_mobile_number
 - verify_email
-- verify_thai_number
-<br>Convert
+- verify_thai_number \
+#### Convert
 - convert_num_th_to_global
 
 Installing
