@@ -9,12 +9,12 @@ Feature
 
 Installing
 ----------
-    ''pip install aidataup''
+    pip install aidataup
 
 Change log 
 -------------
 Version
-- ''v0.0.1'' - initial verify telephone and mobile number in Thailand [2024/10/22]
+- v0.0.1 - initial verify telephone and mobile number in Thailand [2024/10/22]
 
 Documentation
 -------------
