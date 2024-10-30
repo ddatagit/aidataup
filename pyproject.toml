@@ -9,7 +9,7 @@ testpaths = [
 
 [project]
 name = "aidataup"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="dData", email="user@data.co.th" },
 ]
@@ -17,7 +17,12 @@ description = "aidataup"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "phonenumbers"
+    "phonenumbers>=8.12.50",
+    "pandas>=2.0.0",
+    "mysql-connector-python",
+    "psycopg2",
+    "pysqlite3",
+    "requests"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",

@@ -14,6 +14,14 @@ Feature
 - convert_num_th_to_global
 #### Clean
 - clean_car_plateno **(Inprogress)**
+#### Utils
+- DatabaseManager
+##### Connector
+- postgres_connector
+- mysql_connector
+- sqlite_connector
+##### Extract
+- extract_api
 
 Installing
 ----------
@@ -22,6 +30,8 @@ Installing
 Change log 
 -------------
 #### Version
+##### v0.0.4 
+- **[2024/10/xx]** Add DatabaseManager and connection
 ##### v0.0.3 
 - **[2024/10/24]** Add function verify citizenid and datetime with fix format pattern (%Y-%m-%d, %d/%m/%Y, %d-%m-%Y, %Y/%m/%d)
 ##### v0.0.2 
@@ -32,5 +42,17 @@ Change log
 Documentation
 -------------
 Official documentation for aidataup will coming soon...
+
+Usage
+-------------
+##### Example use
+    python -m venv test_pylib
+    test_pylib\Scripts\activate
+    pip install aidataup
+
+**python code**
+    from aidataup import *
+    print(verify_email("1234@mail.com")) #--- Verify Email
+    print(verify_mobile_number("0841333333")) #--- Verify Thailand Mobile number pattern
 
 
