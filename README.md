@@ -30,8 +30,11 @@ Installing
 Change log 
 -------------
 #### Version
+
+##### v0.0.5 
+- **[2024/10/31]** Hotfix add pysqlite3-binary dependencies
 ##### v0.0.4 
-- **[2024/10/xx]** Add DatabaseManager and connection
+- **[2024/10/31]** Add DatabaseManager and connection
 ##### v0.0.3 
 - **[2024/10/24]** Add function verify citizenid and datetime with fix format pattern (%Y-%m-%d, %d/%m/%Y, %d-%m-%Y, %Y/%m/%d)
 ##### v0.0.2 

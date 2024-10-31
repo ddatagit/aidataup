@@ -9,7 +9,7 @@ testpaths = [
 
 [project]
 name = "aidataup"
-version = "0.0.4"
+version = "0.0.5"
 authors = [
   { name="dData", email="user@data.co.th" },
 ]
@@ -22,6 +22,7 @@ dependencies = [
     "mysql-connector-python",
     "psycopg2",
     "pysqlite3",
+    "pysqlite3-binary",
     "requests"
 ]
 classifiers = [
