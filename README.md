@@ -30,7 +30,8 @@ Installing
 Change log 
 -------------
 #### Version
-
+##### v0.0.6
+- **[2024/10/31]** Hotfix remove pysqlite3 and pysqlite3-binary from dependencies
 ##### v0.0.5 
 - **[2024/10/31]** Hotfix add pysqlite3-binary dependencies
 ##### v0.0.4 
