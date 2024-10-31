@@ -50,7 +50,7 @@ Usage
     test_pylib\Scripts\activate
     pip install aidataup
 
-**python code**
+##### Python code
     from aidataup import *
     print(verify_email("1234@mail.com")) #--- Verify Email
     print(verify_mobile_number("0841333333")) #--- Verify Thailand Mobile number pattern
